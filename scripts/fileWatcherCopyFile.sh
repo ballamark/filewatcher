@@ -1,0 +1,29 @@
+#
+#   [bash] fileWatcherCopyFile.sh file module rootDirectoryForServer [logger]
+#
+#       file:                   forrásfile elérési útja az aktuális könyvtárhoz viszonyítva
+#       module:                 web modul neve, ahová a fájlt be kell mésolni
+#       rootDirectoryForServer: gyökérkönyvtár, ahol lehet keresni a deployolt war állományt
+#       logger:                 ha meg van adva, debug üzenet kiírása
+#
+
+# Unix-kompatibilis fájl elérési út
+fileUnixpath=${1//\\//}
+
+# Másolandó fájl relatív elérési útja
+dirprefix=`echo $fileUnixpath | sed "s:$2/src/main/webapp/::" | sed "s:[^/]*\.xhtml$::"`;
+
+deploymentUnixPath=${3//\\//}
+# Telepített web modulhoz tartozó, szerveren belüli ideiglenes munkakönyvtár elérési útja
+targetdir=`find $deploymentUnixPath -type d -name "*$2.war-*"`;
+
+# Másolás, ha megtaláltunk a deployolt modul könyvtárat
+if [ "$targetdir" ]; then
+    cp $deploymentUnixPath/$fileUnixpath $targetdir/$dirprefix
+fi
+
+# Debug üzenet, ha meg van adva logger
+if [ "$4" ]; then
+    echo
+    echo "[$4]:" $1 '==>' $targetdir/$dirprefix
+fi
