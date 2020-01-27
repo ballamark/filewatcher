@@ -32,10 +32,10 @@ Azaz ahol figyeljen a plugin.
 #### Tool to Run on Changes
 * Program: [path\to\script\fileWatcherCopyFile.bat](scripts/fileWatcherCopyFile.bat) (pl.: `$ProjectFileDir$\bkv-wildfly-config\src\main\resources\file-watcher\fileWatcherCopyFile.bat`)
 * Arguments: Programnak átadott paraméterek 
-    1. file:                   forrásfile elérési útja az aktuális könyvtárhoz viszonyítva
-    2. module:                 web modul neve, ahová a fájlt be kell mésolni
-    3. rootDirectoryForServer: gyökérkönyvtár, ahol lehet keresni a deployolt war állományt
-    4. logger:                 ha meg van adva, debug üzenet kiírása
+1. file:                   forrásfile elérési útja az aktuális könyvtárhoz viszonyítva
+1. module:                 web modul neve, ahová a fájlt be kell mésolni
+1. rootDirectoryForServer: gyökérkönyvtár, ahol lehet keresni a deployolt war állományt
+1. logger:                 ha meg van adva, debug üzenet kiírása
     
     (pl.: `$FileRelativePath$ $ModuleName$ $ProjectFileDir$ xhtml_logger`)  		
 
