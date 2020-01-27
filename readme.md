@@ -40,7 +40,7 @@ Azaz ahol figyeljen a plugin.
     (pl.: `$FileRelativePath$ $ModuleName$ $ProjectFileDir$ xhtml_logger`)  		
 
 * Working Directory and Environment Variables:
-    * Working Directory: `$ProjectFileDir$\bkv-wildfly-config\src\main\resources\file-watcher`
+    * Working Directory: ahol a scriptek vannak (`$ProjectFileDir$\bkv-wildfly-config\src\main\resources\file-watcher`)
 
 ### Vizuális segédlet:
 File Watcher
