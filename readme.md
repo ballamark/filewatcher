@@ -19,7 +19,7 @@
     </context-param>
     ```
 * File Watcher plugin az IDEA-ban
-* bash.exe a PATH környezeti változón 
+* bash.exe a PATH környezeti változón (Cygwin bash alkalmazása problémát okozhat)
  
 ## File Watcher beállításai:
 #### Files to watch
