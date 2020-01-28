@@ -45,9 +45,9 @@ Azaz ahol figyeljen a plugin.
 ### Vizuális segédlet:
 File Watcher
 
-![fw](img/File Watcher.JPG)
+![fw](/img/File Watcher.JPG)
 
 Scope
 
-![fws](img/File Watcher scope.JPG)
+![fws](/img/File Watcher scope.JPG)
  
