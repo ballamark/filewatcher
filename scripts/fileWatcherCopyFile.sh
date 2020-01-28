@@ -25,7 +25,7 @@ if [ "$targetdir" ]; then
 fi
 
 # Debug üzenet, ha meg van adva logger
-if [ "$4" ]; then
+if [ "$5" ]; then
     echo
-    echo "[$4]:" $1 '==>' $targetdir/$dirprefix
+    echo "[$5]:" $1 '==>' $targetdir/$dirprefix
 fi
