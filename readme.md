@@ -46,7 +46,7 @@ Azaz ahol figyeljen a plugin.
 ### Vizuális segédlet:
 File Watcher
 
-![fw](https://github.com/ballamark/filewatcher/blob/master/img/File%20Watcher.JPG)
+![fw](https://github.com/ballamark/filewatcher/blob/master/img/File%20Watcher_1.JPG)
 
 Scope
 
