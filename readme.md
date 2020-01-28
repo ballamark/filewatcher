@@ -49,5 +49,5 @@ File Watcher
 
 Scope
 
-![fws](https://github.com/ballamark/filewatcher/blob/master/img/File%20Watcher.JPG%20scope.JPG)
+![fws](https://github.com/ballamark/filewatcher/blob/master/img/File%20Watcher%20scope.JPG)
  
