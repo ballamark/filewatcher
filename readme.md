@@ -34,6 +34,7 @@ Azaz ahol figyeljen a plugin.
 * Arguments: Programnak átadott paraméterek 
 1. <em>file</em>:                   forrásfile elérési útja az aktuális könyvtárhoz viszonyítva
 1. <em>module</em>:                 web modul neve, ahová a fájlt be kell mésolni
+1. <em>project root</em>:           project root elérése
 1. <em>rootDirectoryForServer</em>: gyökérkönyvtár, ahol lehet keresni a deployolt war állományt
 1. <em>logger</em>:                 ha meg van adva, debug üzenet kiírása
     
