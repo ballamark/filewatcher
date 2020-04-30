@@ -36,7 +36,7 @@ Azaz ahol figyeljen a plugin.
 1. <em>module</em>:                 web modul neve, ahová a fájlt be kell mésolni
 1. <em>project root</em>:           project root elérése
 1. <em>rootDirectoryForServer</em>: gyökérkönyvtár, ahol lehet keresni a deployolt war állományt
-1. <em>logger (opcionális)</em>:                 ha meg van adva, debug üzenet kiírása
+1. <em>onlyWar (opcionális)</em>:   ha meg van adva, akkor csak war modult keres
     
     (pl.: `$FileRelativePath$ $ModuleName$ $ProjectFileDir$ $ProjectFileDir$\bkv-wildfly-config\target xhtml_logger`)  		
 
