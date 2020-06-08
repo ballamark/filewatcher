@@ -38,7 +38,7 @@ Azaz ahol figyeljen a plugin.
 1. <em>rootDirectoryForServer</em>: gyökérkönyvtár, ahol lehet keresni a deployolt war állományt
 1. <em>onlyWar (opcionális)</em>:   ha meg van adva, akkor csak war modult keres
     
-    (pl.: `$FileRelativePath$ $ModuleName$ $ProjectFileDir$ $ProjectFileDir$\bkv-wildfly-config\target xhtml_logger`)  		
+    (pl.: `$FileRelativePath$ $ModuleName$ $ProjectFileDir$ $ProjectFileDir$\bkv-wildfly-config\target true`)  		
 
 * Working Directory and Environment Variables:
     * Working Directory: ahol a scriptek vannak (`$ProjectFileDir$\bkv-wildfly-config\src\main\resources\file-watcher`)
